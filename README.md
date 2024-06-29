@@ -1,5 +1,5 @@
 # Blazingly fast Neovim (btw) setup 
-# //Windows//Mac//Linux
+### //Windows//Mac//Linux
 
 ### Created by Austen Harrell
 ___
