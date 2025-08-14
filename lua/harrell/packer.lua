@@ -5,6 +5,10 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
   -- Packer can manage itself
+  use 'mfussenegger/nvim-dap'
+
+  use 'nicholasmata/nvim-dap-cs'
+
   use 'wbthomason/packer.nvim'
 
   use {
