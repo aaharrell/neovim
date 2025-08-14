@@ -1,8 +1,0 @@
-function Set-NvimDir {
-    if (Test-Path "$HOME\nvim-last-dir.txt") {
-        $nvimDir = Get-Content "$HOME\nvim-last-dir.txt"
-        Set-Location $nvimDir
-    } else {
-        Write-Host "nvim-last-dir.txt not found."
-    }
-}
